@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CSS Layout Classes</title>
+  <link rel="stylesheet" href="reset.css">
+  <style>
+    /* stylelint-disable block-no-empty */
+    body {
+      font-family: sans-serif;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    .container {
+      max-width: 992px;
+      margin: auto;
+    }
+
+    .row {
+      width: 100%;
+      display: flex;
+    }
+
+    .column {
+      flex-basis: calc(100% / 3);
+      padding-left: 8px;
+      padding-right: 8px;
+    }
+    img {
+      width: 100%;
+      height: 58%;
+      padding-left: 5px;
+      padding-right: 5px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Complete the HTML here -->
+  <h1>Harry Potter</h1>
+  <div class="container">
+    <div class="row">
+      <div class="column">
+        <img src="images/sorcerer's.jpg">
+        <h2>Sorcerer's Stone</h2>
+        <p>Harry Potter is an 11 year old boy who lives with his uncle, aunt,
+          and cousin, having lost his parents as an infant. Harry finds out he
+          is a wizard, and he attends Hogwarts School of Witchcraft and Wizardry.
+          At this school, he becomes friends with Ron Weasley and Hermoine
+          Granger. Harry learns that Lord Voldemort, a dark and evil wizard,
+          murdered his parents and attempted to kill Harry when he was a
+          baby. Harry and friends try to stop the sorcerer's stone, which has
+          the power to make someone immortal, from being stolen.
+        </p>
+      </div>
+      <div class="column">
+        <img src="images/chamber.jpg">
+        <h2>Chamber of Secrets</h2>
+        <p>It's year two at Hogwarts, and Harry, Ron, and Hermione are back
+        learning, but their year doesn't go passed quietly. Members of the
+        school are turning up petrified and bloody writings are appearing on the
+        walls, revealing to everyone, that someone has opened the Chamber of
+        Secrets. The attacks continue, bringing the possibility of the closure
+        of Hogwarts. Harry and his friends are now forced to secretly uncover
+        the truth about the chamber before the school closes or any lives are
+        taken.</p>
+      </div>
+      <div class="column">
+        <img src="images/prizoner.jpg">
+        <h2>Prizoner of Azkaban</h2>
+        <p>Harry Potter, Ron and Hermione return to Hogwarts School of
+          Witchcraft and Wizardry for their third year of study, where they
+          investigate into the mystery surrounding an escaped prisoner who poses
+          a dangerous threat to the young wizard.Little does Harry know that by
+          the end of this year, many holes in his past will be filled up and he
+          will have a clearer vision of what the future has in store.</p>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
